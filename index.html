@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Виктории — AI-креатора и визуального дизайнера.">
+  <meta name="theme-color" content="#f2ede4">
+  <title>Виктория — AI-креатор · визуальный дизайнер</title>
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+  <header class="topbar">
+    <a class="monogram" href="#top" aria-label="Виктория — на главную">V.</a>
+    <p>Портфолио · 2026</p>
+    <span class="availability"><i aria-hidden="true"></i> Открыта к проектам</span>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">AI-креатор · визуальный дизайнер</p>
+        <h1 id="hero-title">Виктория</h1>
+        <p class="hero-text">Создаю дизайн для маркетплейсов и социальных сетей, AI-визуалы, видео, мультфильмы и визуальные проекты.</p>
+      </div>
+      <a class="hero-link" href="#workspace">Смотреть работы <span aria-hidden="true">↓</span></a>
+    </section>
+    <section class="workspace" id="workspace" aria-labelledby="workspace-title">
+      <div class="workspace-heading">
+        <div><p class="eyebrow">Моё digital-пространство</p><h2 id="workspace-title">Выберите направление</h2></div>
+        <p>Откройте папку, затем выберите проект.</p>
+      </div>
+      <div class="folder-grid" id="folder-grid"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Виктория · AI-креатор и визуальный дизайнер</p>
+    <p>Все работы представлены в портфолио · 2026</p>
+  </footer>
+  <nav class="dock" aria-label="Быстрая навигация">
+    <button type="button" data-info="about"><span aria-hidden="true">✦</span>Обо мне</button>
+    <button type="button" data-info="services"><span aria-hidden="true">◌</span>Услуги</button>
+    <button type="button" data-info="contacts"><span aria-hidden="true">◇</span>Контакты</button>
+    <a href="https://t.me/VikkiMolll" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span>Telegram</a>
+  </nav>
+  <div class="window-layer" id="folder-window" aria-hidden="true">
+    <div class="window-backdrop" data-close-folder></div>
+    <section class="floating-window folder-window" role="dialog" aria-modal="true" aria-labelledby="folder-window-title">
+      <header class="window-bar">
+        <div class="window-mark" aria-hidden="true"><span></span><span></span></div><p>Папка с работами</p>
+        <button type="button" data-close-folder aria-label="Закрыть папку">Закрыть <b aria-hidden="true">×</b></button>
+      </header>
+      <div class="folder-window-content" id="folder-window-content"></div>
+    </section>
+  </div>
+  <div class="window-layer" id="info-window" aria-hidden="true">
+    <div class="window-backdrop" data-close-info></div>
+    <section class="floating-window info-window" role="dialog" aria-modal="true" aria-labelledby="info-window-title">
+      <header class="window-bar">
+        <div class="window-mark" aria-hidden="true"><span></span><span></span></div><p>Виктория · портфолио</p>
+        <button type="button" data-close-info aria-label="Закрыть окно">Закрыть <b aria-hidden="true">×</b></button>
+      </header>
+      <div class="info-window-content" id="info-window-content"></div>
+    </section>
+  </div>
+  <div class="case-viewer" id="case-viewer" aria-hidden="true">
+    <div class="case-viewer-backdrop" data-close-case></div>
+    <section class="case-panel" role="dialog" aria-modal="true" aria-labelledby="case-title">
+      <button class="case-close" type="button" data-close-case aria-label="Закрыть кейс"><span>Закрыть</span><span aria-hidden="true">×</span></button>
+      <div id="case-content"></div>
+    </section>
+  </div>
+  <script src="script.js?v=12"></script>
+</body>
+</html>
