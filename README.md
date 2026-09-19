@@ -53,3 +53,5 @@
 
 - Telegram: [@VikkiMolll](https://t.me/VikkiMolll)
 - Instagram: [@vika_molll](https://instagram.com/vika_molll)
+
+GitHub Desktop connected
